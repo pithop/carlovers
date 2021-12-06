@@ -1,0 +1,81 @@
+.top{
+    background-color: whitesmoke;
+    margin-bottom: 1em;
+    padding: 1em;
+    position:relative;
+}
+.top h1{
+    color: crimson;
+    text-align: center;
+}
+.top table{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+
+}
+.top table a{
+     background-color: red;
+    border:0.5px solid black;
+    border-radius: 6px;
+    /*border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 0.25em;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;*/
+    margin: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+.top table a:hover{
+    background-color: white;
+    color: red;
+}
+.car1{
+background-color: whitesmoke;
+color: tomato;
+display: inline;
+margin-bottom: 1em;
+}
+
+.car2{
+    background-color: whitesmoke;
+    color: tomato;
+    display: inline;  
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.car3{
+    background-color: whitesmoke;
+    color: tomato;
+    display: inline;  
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.main-footer{
+    padding: 4em;
+    background-color: crimson;
+    color: black;
+    margin: 0em;
+    height: 2em;
+    position: relative;
+}
+.main-footer p{
+    padding: 0em;
+    text-align: center;
+    animation: learn 6s ease 3s 5 alternate;
+    margin-left: 35em;
+    margin-right: 35em;
+}
+@keyframes learn {
+    0%   {background-color: crimson; left: 1px; top: 1px;}
+    30%  {background-color: red; left: 300px; top: 1px;}
+    60%  {background-color: rgb(240, 107, 129); left: 300px; top: 300px;}
+    80%  {background-color: red; left: 1px; top: 300px;}
+    100% {background-color: crimson; left: 1px; top: 1px;}
+}
+body hr{
+    color: pink;
+}
